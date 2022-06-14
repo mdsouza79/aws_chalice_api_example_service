@@ -1,0 +1,8 @@
+.chalice/deployments/
+.chalice/venv/
+chalicelib/__pycache__/
+__pycache__/
+*.pyc
+
+#Please remove the below line when deploying your service, else the deployed jon file wont be stored to github
+.chalice/deployed/
